@@ -8,29 +8,29 @@
 <body>
     <h1>formulario</h1>
     <hr>
-    <form action="#" name="Datos Personales">
-        <table>
+        <form action="#" name="DatosPersonales" id="Datos Personales">
+            <table>
             <tr>
                 <td><label for="Nombre">Nombre</label></td>
                 <td><label for="Apellido">Apellido</label></td>
             </tr>
             <tr>
-                <td><input type="text" name="Nombre" id="name" placeholder="Nombre"></td>
-                <td><input type="text" name="Apellido" id="apellido" placeholder="Apellido"></td>
+                <td><input type="text" name="Nombre" id="name" placeholder="Nombre" form="Datos Personales"></td>
+                <td><input type="text" name="Apellido" id="apellido" placeholder="Apellido" form="Datos Personales"></td>
             </tr>
             <tr>
                 <td><label for="">e-mail</label></td>
                 <td><label for="">celular</label></td>
             </tr>
             <tr>
-                <td><input type="text" id="e-mail"></td>
-                <td><input type="text" id="celular"></td>
+                <td><input type="text" id="e-mail" form="Datos Personales"></td>
+                <td><input type="text" id="celular" form="Datos Personales"></td>
             </tr>
             <tr>
-                <td><label for="">Direccion</label></td>
+                <td><label for="">Dirección</label></td>
             </tr>
             <tr>
-                <td colspan="2"><input type="text" size="44"></td>
+                <td colspan="2"><input type="text" size="44" form="Datos Personales"></td>
                 
             </tr>
             <tr>
@@ -38,28 +38,28 @@
                 <td><label for="">número identificación</label></td>
             </tr>
             <tr>
-                <td><input type="text"></td>
-                <td><input type="text"></td>
+                <td><input type="text" id="fecha nacimiento" form="Datos Personales"></td>
+                <td><input type="text" id="número identificación" form="Datos Personales"></td>
             </tr>
             <tr>
                 <td><label for="">Género</label></td>
                 <td><label for="">hobbies</label></td>
             </tr>
             <tr>
-                <td><input type="radio" name="femenino" id="femenino"> <label for="femenino">femenino</label></td>
-                <td><input type="checkbox" name="deportes" id="deportes"> <label for="deportes">deportes</label></td>
+                <td><input type="radio" name="genero" id="femenino" form="Datos Personales"> <label for="femenino">Femenino</label></td>
+                <td><input type="checkbox" name="deportes" id="deportes"> <label for="deportes">Deportes</label></td>
             </tr>
             <tr>
-                <td><input type="radio" name="masculino" id="masculino"> <label for="masculino">masculino</label></td>
-                <td><input type="checkbox" name="deportes" id="deportes"> <label for="femenino">música</label></td>
+                <td><input type="radio" name="genero" id="masculino" form="Datos Personales"> <label for="masculino">Masculino</label></td>
+                <td><input type="checkbox" name="deportes" id="deportes"> <label for="femenino">Música</label></td>
             </tr>
             <tr>
                 <td></td>
-                <td><input type="checkbox" name="deportes" id="deportes"> <label for="femenino">música</label></td>
+                <td><input type="checkbox" name="deportes" id="deportes"> <label for="femenino">Juegos</label></td>
             </tr>
             <tr>
                 <td><input type="submit" value="Enviar"></td>
-                <td><input type="reset" value="reset"></td>
+                <td><input type="reset" value="reset" form="Datos Personales"></td>
             </tr>
         </table>
         
